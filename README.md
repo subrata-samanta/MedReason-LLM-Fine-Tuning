@@ -47,6 +47,8 @@ This repository showcases how to fine-tune the **Phi-2 LLM** using **QLoRA** wit
 pip install virtualenv
 virtualenv finetune
 source finetune/bin/activate
+pip install uv
+uv pip install accelerate bitsandbytes trl peft transformers datasets huggingface_hub[hf_xet]
 
 # Install dependencies
 pip install accelerate bitsandbytes trl peft transformers datasets huggingface_hub
